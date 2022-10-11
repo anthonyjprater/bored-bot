@@ -11,6 +11,7 @@ body {
     align-items: center;
     font-family: Oxygen, sans-serif;
     min-width: 300px;
+    word-spacing: 2px;
 }
 
 .fun {
@@ -45,17 +46,25 @@ h4 {
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
+        font-weight: bold;
     }
 
     h4 {
-        font-size: 3rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
+    button {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 425px) {
+ 
     button {
         height: 300px;
         width: 300px;
     }
-
-
 }
