@@ -35,6 +35,27 @@ button {
 }
 
 #activity {
-    text-shadow: 1px 1px 5px #fff;
     text-align: center;
+}
+
+h1,
+h4 {
+    text-shadow: 1px 1px 3px #fff;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h4 {
+        font-size: 3rem;
+    }
+
+    button {
+        height: 300px;
+        width: 300px;
+    }
+
+
 }
