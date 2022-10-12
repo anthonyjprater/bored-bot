@@ -12,6 +12,7 @@ body {
     font-family: Oxygen, sans-serif;
     min-width: 300px;
     word-spacing: 2px;
+    line-height: 1.6;
 }
 
 .fun {
@@ -39,32 +40,23 @@ button {
     text-align: center;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 h1,
 h4 {
     text-shadow: 1px 1px 3px #fff;
 }
 
-@media (min-width: 768px) {
-    h1 {
-        font-size: 3rem;
-        font-weight: bold;
-    }
-
-    h4 {
-        font-size: 1rem;
-        font-weight: bold;
-    }
+@media (max-width: 768px) {
 
     button {
         height: 200px;
         width: 200px;
-    }
-}
-
-@media (min-width: 425px) {
- 
-    button {
-        height: 300px;
-        width: 300px;
     }
 }
